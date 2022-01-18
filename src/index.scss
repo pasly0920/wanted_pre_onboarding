@@ -1,0 +1,133 @@
+body {
+  background-color: #fff;
+  font-size: 14px;
+  line-height: 1.42857143;
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+}
+a,
+abbr,
+acronym,
+address,
+applet,
+article,
+aside,
+audio,
+b,
+big,
+blockquote,
+body,
+canvas,
+caption,
+center,
+cite,
+code,
+dd,
+del,
+details,
+dfn,
+div,
+dl,
+dt,
+em,
+embed,
+fieldset,
+figcaption,
+figure,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hgroup,
+html,
+i,
+iframe,
+img,
+ins,
+kbd,
+label,
+legend,
+li,
+mark,
+menu,
+nav,
+object,
+ol,
+output,
+p,
+pre,
+q,
+ruby,
+s,
+samp,
+section,
+small,
+span,
+strike,
+strong,
+sub,
+summary,
+sup,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+time,
+tr,
+tt,
+u,
+ul,
+var,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+.Nav {
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+  justify-content: space-around;
+  align-items: center;
+  .NavButton {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    .Menu {
+      width: 17px;
+      height: 14px;
+      margin-right: 20px;
+      cursor: pointer;
+    }
+    .logo {
+      width: 74.4px;
+      height: 18px;
+      margin-top: -4px;
+      cursor: pointer;
+    }
+  }
+  a {
+    text-decoration: none;
+    color: #333333;
+    font-size: 14px;
+    padding: 11px 10px 19px;
+    font-weight: 600;
+  }
+  ul {
+    list-style: none;
+    display: flex;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+  }
+}
