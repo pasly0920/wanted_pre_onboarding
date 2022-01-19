@@ -4,6 +4,12 @@ import GNB from "./components/GNB";
 function App() {
   const obj = [
     [
+      "https://static.wanted.co.kr/images/banners/1490/0b775035.jpg",
+      "마케팅 주니어를 찾습니다",
+      "기업 과제 풀고 취업까지 한번에!",
+    ],
+
+    [
       "https://static.wanted.co.kr/images/banners/1473/41f7b36e.jpg",
       "개발자 되고싶은 분들!?",
       "프론트엔드 무료 교육과정 참여하기",
@@ -47,6 +53,17 @@ function App() {
       "https://static.wanted.co.kr/images/banners/1490/0b775035.jpg",
       "마케팅 주니어를 찾습니다",
       "기업 과제 풀고 취업까지 한번에!",
+    ],
+
+    [
+      "https://static.wanted.co.kr/images/banners/1473/41f7b36e.jpg",
+      "개발자 되고싶은 분들!?",
+      "프론트엔드 무료 교육과정 참여하기",
+    ],
+    [
+      "https://static.wanted.co.kr/images/banners/1486/fba2df30.jpg",
+      "성과를 내는 마케팅",
+      "실제 사례를 공개합니다!",
     ],
   ];
   return (

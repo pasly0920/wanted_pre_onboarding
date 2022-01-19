@@ -4,6 +4,7 @@ body {
   line-height: 1.42857143;
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
+  overflow-x: hidden;
 }
 
 a,
@@ -101,11 +102,18 @@ video {
       -ms-flex-direction: row;
           flex-direction: row;
   height: 50px;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  vertical-align: middle;
+  z-index: 100;
+  -webkit-box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.089);
+          box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.089);
+  -webkit-padding-start: 40px;
+          padding-inline-start: 40px;
 }
 
 .Nav .NavButton {
@@ -142,7 +150,7 @@ video {
   text-decoration: none;
   color: #333333;
   font-size: 14px;
-  padding: 11px 10px 19px;
+  padding: 15px;
   font-weight: 600;
 }
 
@@ -161,5 +169,68 @@ video {
           margin-inline-end: 0px;
   -webkit-padding-start: 40px;
           padding-inline-start: 40px;
+}
+
+.Nav .AI::after {
+  height: 100%;
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.Nav .searchButton {
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+}
+
+.Nav .signUpButton {
+  background-color: transparent;
+  border: 0;
+  font-weight: 600;
+  padding: 0px 3px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.Nav .dashboardButton {
+  font-size: 13px;
+  color: #666;
+  line-height: 30px;
+  height: 30px;
+  border: 1px solid #e1e2e3;
+  border-radius: 15px;
+  padding: 0 10px;
+  margin-left: 15px;
+  font-weight: 400;
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+.Nav .dashboardButton:before {
+  display: block;
+  content: "";
+  width: 1px;
+  height: 10px;
+  background-color: #e1e2e3;
+  margin: auto 10px;
+}
+
+.Nav aside {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  position: relative;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  vertical-align: middle;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 100%;
+  padding: 10px 0;
+  line-height: 1.42857143;
 }
 /*# sourceMappingURL=index.css.map */

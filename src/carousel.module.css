@@ -1,0 +1,89 @@
+.swiperContainer {
+  padding-top: 25px;
+  width: 1300vw;
+  -webkit-transition: -webkit-transform 0.5s;
+  transition: -webkit-transform 0.5s;
+  transition: transform 0.5s;
+  transition: transform 0.5s, -webkit-transform 0.5s;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  overflow: hidden;
+}
+
+.swiperInner {
+  width: 1300vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: -80vw;
+  gap: 10px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  overflow: hidden;
+}
+
+.swiperInner h2 {
+  font-size: 20px;
+  line-height: 1.5;
+  font-weight: 700px;
+  margin: 20px 20px 0px;
+}
+
+.swiperInner h3 {
+  font-size: 14px;
+  margin: 0 20px;
+  height: 44px;
+  line-height: 1.64;
+  font-weight: 400;
+}
+
+.swiperInner img {
+  max-width: 1060px;
+  max-height: 300px;
+  width: auto;
+  height: auto;
+  border-radius: 4px;
+}
+
+.swiperInner .item {
+  position: relative;
+  margin-left: 1vw;
+  margin-right: 1vw;
+}
+
+.swiperInner .subInfo {
+  position: absolute;
+  bottom: 28px;
+  width: 330px;
+  height: 146px;
+  border-radius: 4px;
+  background-color: #fff;
+  opacity: 1;
+  text-align: left;
+  left: 34px;
+}
+
+.swiperInner .subInfo hr {
+  height: 1px;
+  background-color: #cecece;
+  border: none;
+  margin-top: -5px;
+  margin-bottom: 17px;
+}
+
+.swiperInner .subInfo a {
+  margin: 6px 0 0 13px;
+  padding: 6px 8px;
+  color: #36f;
+  text-decoration: none;
+  line-height: 1;
+  font-weight: 700;
+  font-size: 14px;
+}
+/*# sourceMappingURL=carousel.module.css.map */
